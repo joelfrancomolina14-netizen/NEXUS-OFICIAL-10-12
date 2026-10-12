@@ -7,7 +7,7 @@ El proyecto sirve como base práctica para la preparación del examen de evaluac
 
 Estructura del Repositorio
 
-- `src/`: Código fuente de la aplicación en C# (`.cs`, `.csproj`, `.sln`).
+- `Program/`: Código fuente de la aplicación en C# (`.cs`, `.csproj`, `.sln`).
 - `docs/`: Manual técnico completo en formato PDF (`NEXUS_Manual_Tecnico_H3.pdf`) que incluye la arquitectura, diagrama de clases, ejemplos de código, batería de preguntas de examen y el diagnóstico de aprendizaje.
 
 
