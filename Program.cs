@@ -1,4 +1,5 @@
-﻿using System;
+using NEXUS;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
@@ -1069,18 +1070,3 @@ namespace NEXUS
             Console.WriteLine("\nNEXUS finalizado.");
         }
     }
-
-
-    // =========================================================
-    // PROGRAMA
-    // =========================================================
-
-    internal class Program
-    {
-        static void Main()
-        {
-            NexusSistema sistema = new NexusSistema();
-            sistema.Ejecutar();
-        }
-    }
-}
