@@ -31,7 +31,7 @@ Para la evolución del proyecto NEXUS se propone un patrón de arquitectura en t
 |  - SQL Server (Tablas: Jugadores, Exploradores, etc.)       |
 +-------------------------------------------------------------+
 ````
-2. Responsabilidad de cada Capa
+## 2. Responsabilidad de cada Capa
 Capa de Presentación (UI - Windows Forms)
 Captura los eventos del usuario (clics en botones, teclas de dirección).
 
@@ -51,7 +51,7 @@ Gestiona la comunicación con SQL Server mediante ADO.NET (SqlConnection, SqlCom
 
 Implementa el patrón Repository para operaciones CRUD (Crear, Leer, Actualizar, Eliminar) del progreso del jugador.
 
-3. Beneficios de esta Arquitectura
+## 3. Beneficios de esta Arquitectura
 Mantenibilidad: Si se modifica la interfaz visual, la lógica del juego y los datos no se ven afectados.
 
 Reutilización: Se aprovechan las clases base creadas en H3 sin necesidad de reescribirlas desde cero.
