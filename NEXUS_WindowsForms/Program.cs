@@ -9,7 +9,7 @@ namespace NEXUS_WindowsForms
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new numEdad());
+            Application.Run(new FormIngreso());
         }
     }
-}
+} 

@@ -1,20 +1,35 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 
 namespace NEXUS_WindowsForms
 {
-    public partial class numEdad : Form
+    public partial class FormIngreso : Form
     {
-        public numEdad()
+        public FormIngreso()
         {
             InitializeComponent();
+            btnIniciar.Click += BtnIniciar_Click;
+            txtNombreCadete.KeyDown += (s, e) =>
+            {
+                if (e.KeyCode == Keys.Enter) BtnIniciar_Click(s, e);
+            };
         }
 
-        
+        private void BtnIniciar_Click(object sender, EventArgs e)
+        {
+            string nombre = txtNombreCadete.Text.Trim();
+            if (string.IsNullOrEmpty(nombre))
+            {
+                MessageBox.Show("Por favor ingresa tu nombre o código de Cadete.", "NEXUS - Acceso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtNombreCadete.Focus();
+                return;
+            }
+
+            Cadete nuevoCadete = new Cadete(nombre);
+            FormMenu menu = new FormMenu(nuevoCadete);
+            this.Hide();
+            menu.FormClosed += (s, args) => this.Close();
+            menu.Show();
+        }
     }
 }
