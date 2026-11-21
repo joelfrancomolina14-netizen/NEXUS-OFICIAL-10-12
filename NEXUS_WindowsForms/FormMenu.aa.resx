@@ -117,439 +117,86 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>38, 52</value>
-  </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 20</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Salud:</value>
-  </data>
-  <data name="pbSalud.Location" type="System.Drawing.Point, System.Drawing">
-    <value>93, 52</value>
+    <value>100, 23</value>
   </data>
   <data name="pbSalud.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 20</value>
+    <value>100, 23</value>
   </data>
-  <data name="pbSalud.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lblSaludVal.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblSaludVal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>336, 52</value>
-  </data>
-  <data name="lblSaludVal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 20</value>
-  </data>
-  <data name="lblSaludVal.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lblSaludVal.Text" xml:space="preserve">
-    <value>100%</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 105</value>
+  <data name="lblValorSalud.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 20</value>
-  </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Energía:</value>
-  </data>
-  <data name="pbEnergia.Location" type="System.Drawing.Point, System.Drawing">
-    <value>93, 105</value>
+    <value>100, 23</value>
   </data>
   <data name="pbEnergia.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 20</value>
+    <value>100, 23</value>
   </data>
-  <data name="pbEnergia.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lblEnergiaVal.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblEnergiaVal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>342, 106</value>
-  </data>
-  <data name="lblEnergiaVal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
-  </data>
-  <data name="lblEnergiaVal.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="lblEnergiaVal.Text" xml:space="preserve">
-    <value>80%</value>
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>498, 51</value>
+  <data name="lblValorEnergia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 20</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Estabilidad:</value>
-  </data>
-  <data name="pbEstabilidad.Location" type="System.Drawing.Point, System.Drawing">
-    <value>587, 52</value>
+    <value>100, 23</value>
   </data>
   <data name="pbEstabilidad.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 20</value>
+    <value>100, 23</value>
   </data>
-  <data name="pbEstabilidad.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="lblEstabilidadVal.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lblEstabilidadVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblEstabilidadVal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>837, 52</value>
-  </data>
-  <data name="lblEstabilidadVal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
-  </data>
-  <data name="lblEstabilidadVal.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="lblEstabilidadVal.Text" xml:space="preserve">
-    <value>85%</value>
-  </data>
-  <data name="btnExplorar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnExplorar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 187</value>
+  <data name="lblValorEstabilidad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="btnExplorar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 32</value>
+    <value>75, 23</value>
   </data>
-  <data name="btnExplorar.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="btnExplorar.Text" xml:space="preserve">
-    <value>1. Explorar realidad</value>
-  </data>
-  <data name="btnEscanear.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnEscanear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnEscanear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 234</value>
-  </data>
-  <data name="btnEscanear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 32</value>
-  </data>
-  <data name="btnEscanear.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="btnEscanear.Text" xml:space="preserve">
-    <value>2. Analizar / escanear anomalía</value>
-  </data>
-  <data name="btnEstado.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnEstado.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnEstado.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 282</value>
+  <data name="btnAnalizar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
   <data name="btnEstado.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 32</value>
-  </data>
-  <data name="btnEstado.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="btnEstado.Text" xml:space="preserve">
-    <value>3. Consultar estado</value>
-  </data>
-  <data name="btnRecuperar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnRecuperar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnRecuperar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 337</value>
+    <value>75, 23</value>
   </data>
   <data name="btnRecuperar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 32</value>
+    <value>75, 23</value>
   </data>
-  <data name="btnRecuperar.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="btnRecuperar.Text" xml:space="preserve">
-    <value>4. Recuperar energía</value>
-  </data>
-  <data name="btnCondicion.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnCondicion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnCondicion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 384</value>
-  </data>
-  <data name="btnCondicion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 32</value>
-  </data>
-  <data name="btnCondicion.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="btnCondicion.Text" xml:space="preserve">
-    <value>5. Evaluar condición segura</value>
-  </data>
-  <data name="btnDesconectar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnDesconectar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnDesconectar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 431</value>
+  <data name="btnEvaluar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
   <data name="btnDesconectar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 32</value>
-  </data>
-  <data name="btnDesconectar.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="btnDesconectar.Text" xml:space="preserve">
-    <value>6. Intentar desconexión</value>
-  </data>
-  <data name="btnConectar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnConectar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnConectar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 479</value>
+    <value>75, 23</value>
   </data>
   <data name="btnConectar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 32</value>
+    <value>75, 23</value>
   </data>
-  <data name="btnConectar.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="btnConectar.Text" xml:space="preserve">
-    <value>7. Conectar con otro equipo</value>
-  </data>
-  <data name="btnMensaje.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnMensaje.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnMensaje.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 529</value>
-  </data>
-  <data name="btnMensaje.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 32</value>
-  </data>
-  <data name="btnMensaje.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="btnMensaje.Text" xml:space="preserve">
-    <value>8. Enviar mensaje</value>
-  </data>
-  <data name="btnMapa.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnMapa.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnMapa.Location" type="System.Drawing.Point, System.Drawing">
-    <value>269, 187</value>
+  <data name="btnEnviarMensaje.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
   <data name="btnMapa.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 32</value>
-  </data>
-  <data name="btnMapa.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="btnMapa.Text" xml:space="preserve">
-    <value>9. Mapa / matriz (2D)</value>
-  </data>
-  <data name="btnInventario.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnInventario.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnInventario.Location" type="System.Drawing.Point, System.Drawing">
-    <value>269, 234</value>
+    <value>75, 23</value>
   </data>
   <data name="btnInventario.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 32</value>
+    <value>75, 23</value>
   </data>
-  <data name="btnInventario.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="btnInventario.Text" xml:space="preserve">
-    <value>10. Gestionar Inventario</value>
-  </data>
-  <data name="btnMision.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnMision.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnMision.Location" type="System.Drawing.Point, System.Drawing">
-    <value>269, 282</value>
-  </data>
-  <data name="btnMision.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 32</value>
-  </data>
-  <data name="btnMision.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="btnMision.Text" xml:space="preserve">
-    <value>11. Ver Misión y Objetivos</value>
-  </data>
-  <data name="btnExtraccion.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnExtraccion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnExtraccion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>269, 337</value>
+  <data name="btnMisiones.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
   <data name="btnExtraccion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 56</value>
+    <value>75, 23</value>
   </data>
-  <data name="btnExtraccion.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="btnExtraccion.Text" xml:space="preserve">
-    <value>12. Regresar al punto de extracción</value>
-  </data>
-  <data name="lblPeligroVal.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblPeligroVal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblPeligroVal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>836, 107</value>
-  </data>
-  <data name="lblPeligroVal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
-  </data>
-  <data name="lblPeligroVal.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="lblPeligroVal.Text" xml:space="preserve">
-    <value>15%</value>
-  </data>
-  <data name="pbPeligro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pbPeligro.Location" type="System.Drawing.Point, System.Drawing">
-    <value>587, 106</value>
+  <data name="lblValorPeligro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="pbPeligro.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 20</value>
-  </data>
-  <data name="pbPeligro.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="label.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label.Location" type="System.Drawing.Point, System.Drawing">
-    <value>519, 106</value>
+    <value>100, 23</value>
   </data>
   <data name="label.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 20</value>
-  </data>
-  <data name="label.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="label.Text" xml:space="preserve">
-    <value>Peligro:</value>
-  </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>639, 138</value>
+    <value>100, 23</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>234, 20</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>TERMINAL DE REGISTROS NEXUS:</value>
-  </data>
-  <data name="txtTerminal.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Consolas, 10pt</value>
-  </data>
-  <data name="txtTerminal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>519, 161</value>
+    <value>100, 23</value>
   </data>
   <data name="txtTerminal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>430, 400</value>
-  </data>
-  <data name="txtTerminal.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="txtTerminal.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lblCadeteTitulo.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblCadeteTitulo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Consolas, 14pt, style=Bold</value>
-  </data>
-  <data name="lblCadeteTitulo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>292, 12</value>
+    <value>100, 96</value>
   </data>
   <data name="lblCadeteTitulo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>350, 28</value>
-  </data>
-  <data name="lblCadeteTitulo.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="lblCadeteTitulo.Text" xml:space="preserve">
-    <value>NEXUS SYSTEM v1.0 - Cadete</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+    <value>100, 23</value>
   </data>
 </root>

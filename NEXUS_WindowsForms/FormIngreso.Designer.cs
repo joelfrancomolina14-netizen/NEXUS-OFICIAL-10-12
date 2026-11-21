@@ -1,6 +1,6 @@
 ﻿namespace NEXUS_WindowsForms
 {
-    partial class numEdad
+    partial class FormIngreso
     {
         /// <summary>
         /// Required designer variable.
