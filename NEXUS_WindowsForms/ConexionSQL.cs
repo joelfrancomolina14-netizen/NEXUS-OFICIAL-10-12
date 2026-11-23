@@ -95,5 +95,10 @@ namespace NEXUS_WindowsForms
             catch { }
             return dt;
         }
+        public static bool ProbarConexion()
+        {
+            try { using (SqlConnection con = new SqlConnection(CadenaConexion)) { con.Open(); return true; } }
+            catch { return false; }
+        }
     }
 }

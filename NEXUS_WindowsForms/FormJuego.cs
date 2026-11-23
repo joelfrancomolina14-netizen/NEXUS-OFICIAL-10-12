@@ -105,6 +105,8 @@ namespace NEXUS_WindowsForms
             rtbConsola.Clear();
             Log($"[SISTEMA] Bienvenido, Cadete {cadete.Nombre}. Enlace neuronal establecido.", Color.Cyan);
             Log($"[SQL SERVER] Registro guardado en HistorialAcciones.", Color.Lime);
+            if (!ConexionSQL.ProbarConexion())
+                Log("[ADVERTENCIA SQL] Sin conexión con el servidor de base de datos.", Color.OrangeRed);
             ActualizarHUD();
             MostrarPanel(pnlJuego);
         }
