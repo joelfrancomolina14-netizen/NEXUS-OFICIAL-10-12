@@ -1,0 +1,30 @@
+﻿CREATE DATABASE NexusDB;
+GO
+USE NexusDB;
+GO
+CREATE TABLE Cadetes (
+    CadeteID INT IDENTITY(1,1) PRIMARY KEY,
+    Nombre VARCHAR(50) NOT NULL UNIQUE,
+    Edad INT DEFAULT 18,
+    Realidad VARCHAR(50) DEFAULT 'Neo Cochabamba',
+    Salud INT DEFAULT 100,
+    Energia INT DEFAULT 80,
+    Estabilidad INT DEFAULT 85,
+    Peligro INT DEFAULT 15,
+    Escudo INT DEFAULT 20,
+    XP INT DEFAULT 0,
+    ModuloAtaque INT DEFAULT 15,
+    DatosIris INT DEFAULT 0,
+    UltimaConexion DATETIME DEFAULT GETDATE()
+);
+GO
+CREATE TABLE HistorialAcciones (
+    HistorialID INT IDENTITY(1,1) PRIMARY KEY,
+    CadeteID INT NOT NULL,
+    NombreCadete VARCHAR(50) NOT NULL,
+    TipoAccion VARCHAR(40) NOT NULL,
+    Detalle VARCHAR(300) NOT NULL,
+    FechaHora DATETIME DEFAULT GETDATE(),
+    FOREIGN KEY (CadeteID) REFERENCES Cadetes(CadeteID) ON DELETE CASCADE
+);
+GO
