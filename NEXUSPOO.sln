@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.12.12308.306 insiders
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEXUSPOO", "NEXUSPOO\NEXUSPOO.csproj", "{1AF2B04B-5D74-5F61-456B-CE0654B4FB68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEXUS_WindowsForms", "NEXUS_WindowsForms\NEXUS_WindowsForms.csproj", "{A1AA16D1-94DA-4159-B50A-C1A833F6C706}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AF2B04B-5D74-5F61-456B-CE0654B4FB68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF2B04B-5D74-5F61-456B-CE0654B4FB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF2B04B-5D74-5F61-456B-CE0654B4FB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF2B04B-5D74-5F61-456B-CE0654B4FB68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1AA16D1-94DA-4159-B50A-C1A833F6C706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1AA16D1-94DA-4159-B50A-C1A833F6C706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1AA16D1-94DA-4159-B50A-C1A833F6C706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1AA16D1-94DA-4159-B50A-C1A833F6C706}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42D1E82E-3A25-4BFC-BEFD-D51E9EE72CD9}
+	EndGlobalSection
+EndGlobal
