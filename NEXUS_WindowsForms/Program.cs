@@ -9,7 +9,8 @@ namespace NEXUS_WindowsForms
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new FormJuego());
+            Application.ApplicationExit += (s, e) => GestorAudio.DetenerMusica();
+            Application.Run(new FrmIntro());
         }
     }
 }

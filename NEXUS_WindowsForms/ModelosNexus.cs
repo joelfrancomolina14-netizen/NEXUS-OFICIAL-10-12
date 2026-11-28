@@ -17,6 +17,8 @@ namespace NEXUS_WindowsForms
             Tipo = tipo;
             Valor = valor;
         }
+
+        public override string ToString() => $"{Nombre} (+{Valor})";
     }
 
     public class Mision
@@ -47,7 +49,22 @@ namespace NEXUS_WindowsForms
         public int Escudo { get; set; }
         public int XP { get; set; }
         public int ModuloAtaque { get; set; }
+        public int NivelDesbloqueado { get; set; }
+        public int TotalRescatados { get; set; }
+
         public int AtaqueBase => 15 + ModuloAtaque;
+
+        public string Rango
+        {
+            get
+            {
+                if (XP >= 1000) return "LEYENDA NEXUS";
+                if (XP >= 500) return "COMANDANTE TÁCTICO";
+                if (XP >= 200) return "EXPLORADOR ESTELAR";
+                return "CADETE DE CAMPO";
+            }
+        }
+
         public List<Objeto> Inventario { get; set; }
         public Mision MisionActual { get; set; }
 
@@ -63,10 +80,12 @@ namespace NEXUS_WindowsForms
             Escudo = 20;
             XP = 0;
             ModuloAtaque = 15;
+            NivelDesbloqueado = 1;
+            TotalRescatados = 0;
             Inventario = new List<Objeto>
             {
-                new Objeto("🔋 Célula de energía", TipoObjeto.Energia, 25),
-                new Objeto("🛡️ Escudo de Plasma", TipoObjeto.Escudo, 20)
+                new Objeto("Célula de energía", TipoObjeto.Energia, 25),
+                new Objeto("Escudo de Plasma", TipoObjeto.Escudo, 20)
             };
             MisionActual = new Mision();
             ActualizarPeligro();
@@ -83,8 +102,9 @@ namespace NEXUS_WindowsForms
 
         public int RecuperarEnergia()
         {
-            int rec = Energia < 50 ? 20 : 10;
+            int rec = Energia < 50 ? 25 : 15;
             Energia = Math.Min(100, Energia + rec);
+            Salud = Math.Min(100, Salud + 10);
             ActualizarPeligro();
             return rec;
         }
@@ -117,6 +137,7 @@ namespace NEXUS_WindowsForms
     {
         public string Nombre { get; set; }
         public int Salud { get; set; }
+        public int SaludMaxima { get; set; }
         public int Ataque { get; set; }
         public string Descripcion { get; set; }
 
@@ -124,6 +145,7 @@ namespace NEXUS_WindowsForms
         {
             Nombre = nombre;
             Salud = salud;
+            SaludMaxima = salud;
             Ataque = ataque;
             Descripcion = desc;
         }
@@ -136,6 +158,11 @@ namespace NEXUS_WindowsForms
 
     public class Enemigo : Entidad
     {
-        public Enemigo() : base("Xenomorfo de las Sombras", 60, 15, "Entidad interdimensional altamente agresiva.") { }
+        public Enemigo() : base("Xenomorfo de las Sombras", 70, 18, "Entidad interdimensional altamente agresiva.") { }
+    }
+
+    public class JefeOmega : Entidad
+    {
+        public JefeOmega() : base("Anomalía Omega Prime", 150, 26, "Núcleo consciente corrupto que distorsiona el espacio-tiempo.") { }
     }
 }
